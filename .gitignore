@@ -1,0 +1,6 @@
+analytics/__pycache__/*
+core/__pycache__/*
+ingestion/__pycache__/*
+processing/__pycache__/*
+reporting/__pycache__/*
+validation/__pycache__/*

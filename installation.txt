@@ -7,8 +7,3 @@ uv add pandas numpy matplotlib seaborn plotly pyyaml yfinance pytest mypy black 
 uv run pip freeze > requirements.txt
 
 
-########################## Python VENV ##################
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-pip install pandas numpy matplotlib seaborn plotly pyyaml yfinance pytest mypy black ruff
-pip freeze > requirements.txt
