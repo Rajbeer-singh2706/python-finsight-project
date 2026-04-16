@@ -7,3 +7,4 @@ uv add pandas numpy matplotlib seaborn plotly pyyaml yfinance pytest mypy black 
 uv run pip freeze > requirements.txt
 
 
+
