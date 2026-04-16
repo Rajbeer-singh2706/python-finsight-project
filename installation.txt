@@ -1,0 +1,14 @@
+
+python -m venv venv
+mkdir venv && cd venv 
+uv python install 3.12
+
+uv add pandas numpy matplotlib seaborn plotly pyyaml yfinance pytest mypy black ruff
+uv run pip freeze > requirements.txt
+
+
+########################## Python VENV ##################
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+pip install pandas numpy matplotlib seaborn plotly pyyaml yfinance pytest mypy black ruff
+pip freeze > requirements.txt

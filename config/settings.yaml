@@ -1,0 +1,22 @@
+project:
+  name: FinSight
+  version: "1.0.0"
+
+data:
+  raw_path: data/raw
+  processed_path: data/processed
+  reports_path: data/reports
+
+pipeline:
+  tickers: ["AAPL", "MSFT", "AMZN", "GOOGL"]
+  start_date: "2022-01-01"
+  end_date: "2024-01-01"
+
+validation:
+  max_null_pct: 0.05
+  price_min: 0.01
+  price_max: 100000.0
+
+alerts:
+  sharpe_threshold: 0.5
+  var_threshold: -0.05

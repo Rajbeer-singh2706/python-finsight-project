@@ -1,2 +1,2 @@
-# python-finsight-project
-python-finsight-project
+# python-project
+python-project
