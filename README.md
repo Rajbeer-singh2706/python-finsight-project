@@ -16,3 +16,8 @@ pip freeze > requirements.txt
 
 
 ### to run the  codebase ######
+
+
+
+############# this project i need to upload to YouTUBE ----> 
+### explain each and everything
